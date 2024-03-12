@@ -17,7 +17,7 @@ function selectionSort(tableau) {
     }
     // Si l'index de l'élément le plus petit est égal à l'itération en cours
     // nous n'avons pas à faire d'échanges (swap)
-    if (minIndex != i) {
+    if (minIndex !== i) {
       // Sinon on fait un échange entre le plus petit élément et l'emplacement
       // correspondant à l'itération en cours :
       let tmp = tableau[i];
